@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script>
+    <title>Calc-Js</title>
+</head>
+<body>
+    <main data-theme="darkTheme" class="main-content">
+        <header class="headerCalc-Js">
+            <h1>Calc-Js</h1>
+            <button id="themeSwitcher" translate="no">Theme Dark/Light</button>
+        </header>
+        <input type="text" id="contentValues">
+        <div class="containerButtons">
+            <button id="clearInput">C</button>
+            <button class="buttonsCalc" data-value=" ( ">(</button>
+            <button class="buttonsCalc" data-value=" ) ">)</button>
+            <button class="buttonsCalc" data-value="7">7</button>
+            <button class="buttonsCalc" data-value=" / ">/</button>
+            <button class="buttonsCalc" data-value="8">8</button>
+            <button class="buttonsCalc" data-value="9">9</button>
+            <button class="buttonsCalc" data-value=" * ">*</button>
+            <button class="buttonsCalc" data-value="4">4</button>
+            <button class="buttonsCalc" data-value="5">5</button>
+            <button class="buttonsCalc" data-value="6">6</button>
+            <button class="buttonsCalc" data-value=" - ">-</button>
+            <button class="buttonsCalc" data-value="1">1</button>
+            <button class="buttonsCalc" data-value="2">2</button>
+            <button class="buttonsCalc" data-value="3">3</button>
+            <button class="buttonsCalc" data-value=" + ">+</button>
+            <button class="buttonsCalc" data-value="0">0</button>
+            <button class="buttonsCalc" data-value=".">.</button>
+            <button class="buttonsCalc" data-value=" % ">%</button>
+            <button id="equalResult">=</button>
+        </div>
+        <section class="sectionResult">
+            <button id="copyButton" translate="no">Copy</button>
+            <input type="text" id="resultInput" disabled>
+        </section>
+    </main>
+</body>
+</html>

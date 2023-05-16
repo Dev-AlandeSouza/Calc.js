@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+* {
+    font-family: 'Roboto Slab', serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  
+  :root {
+    /* Cores para o tema Dark */
+    --dark-fontColor: #fecb00;
+    --dark-bgColor: #1b1f2d;
+    --dark-borderColor: #ffffff;
+    --darkBgPrimary-color: #00fff7;
+  
+    /* Color success */
+    --success-color: #00ff7b;
+  }
+  
+  body {
+    background-color: var(--dark-bgColor);
+    color: var(--dark-fontColor);
+    width: 60%;
+    height: 60vh;
+    margin: 0 auto;
+    scrollbar-width: thin;
+    scrollbar-color: var(--dark-bgColor) var(--dark-borderColor);
+  }
+  
+  body::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: var(--dark-bgColor);
+  }
+  
+  button {
+    border: none;
+    border-radius: 0.25rem;
+    font-weight: 700;
+    transition: 0.15s;
+    cursor: pointer;
+  }
+  
+  .containerButtons button:hover {
+    filter: brightness(0.8);
+  }
+  
+  .main-content {
+    display: block;
+    margin: 0 auto;
+    max-width: 40rem;
+    padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+    position: relative;
+    border: 2px solid black;
+  }
+  
+  .headerCalc-Js {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 0;
+  }
+  
+  #themeSwitcher {
+    background-color: var(--dark-bgColor);
+    border: 0.125rem solid var(--dark-fontColor);
+    color: var(--font-color);
+    padding: 0.5em;
+  }
+  
+  #themeSwitcher:hover {
+    background-color: var(--dark-fontColor);
+    color: var(--dark-bgColor);
+  }
+  
+  #contentValues {
+    background-color: var(--dark-bgColor);
+    border: 2px solid;
+    border-radius: 0.5rem;
+    color: var(--dark-fontColor);
+    display: block;
+    font-size: 1.2rem;
+    margin: 0 auto;
+    padding: 1.2rem;
+    text-align: end;
+    width: 100%;
+  }
+  
+  #equalResult {
+    padding: 1.2em;
+    background-color: var(--dark-fontColor);
+    border-radius: 0.4rem;
+  }
+  
+  #clearInput {
+    padding: 1.2em;
+    background-color: var(--dark-fontColor);
+    border-radius: 0.4rem;
+  }
+
+  #result {
+    border-width: 2px 2px 2px 0;
+    border-radius: 0 .5rem .5rem 0;
+    width: 100%;
+    height: 9.1vh;
+    border: white solid 0.1em;
+    border-radius: 0rem 0.5rem 0.5rem 0rem;
+  }
+
+  #resultInput{
+    padding: 1.4em;
+    background-color: transparent;
+    font-size: 15px;
+    font-size: larger;
+    font-weight: 400;
+    color: var(--dark-fontColor);
+    display: block;
+    margin: 0 auto;
+    padding: 1rem;
+    text-align: end;
+    width: 100%;
+  }
+
+  #copyButton{
+    background-color: var(--dark-fontColor);
+    border: solid var(--border-color);
+    border-width: 2px;
+    border-radius: 0.5rem 0rem 0rem 0.5rem;
+    color: black;
+    cursor: pointer;
+    display: block;
+    height: 4.25rem;
+    width: 6rem;
+    border: white solid 0.1em;
+  }
+
+
+  .sectionResult{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--dark-bgColor);
+    border: white solid 1px;
+    border-radius: 0.5rem;
+  }
+  
+  .buttonsCalc {
+    padding: 2em;
+    background-color: var(--darkBgPrimary-color);
+    border-radius: 0.4rem;
+  }
+  
+  .containerButtons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1rem;
+    margin: 2rem 0;
+  }
+
+  #success{
+    background-color: var(--success-color) !important;
+    border-color: #00bd5b !important;
+    border-width: 2px;
+    border-radius: 0.5rem 0rem 0rem 0.5rem;
+    color: black;
+    cursor: pointer;
+    display: block;
+    height: 4.25rem;
+    width: 6rem;
+    border: white solid 0.1em;
+  }
+
+
+
+@media screen and (min-width: 1024px) {
+    body {
+      width: 60%;
+      height: 60vh;
+    }
+    
+    .main-content {
+      max-width: 40rem;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    body {
+      width: 80%;
+      height: 80vh;
+    }
+    
+    .main-content {
+      max-width: 30rem;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    body {
+      width: 90%;
+      height: auto;
+    }
+    
+    .main-content {
+      padding: 0 0.5rem 1.5rem;
+    }
+  }
+  
+@media screen and (max-width: 320px) {
+    body {
+      width: 100%;
+      height: auto;
+    }
+    
+    .main-content {
+      max-width: 90%;
+      padding: 0 0.5rem 1rem;
+    }
+  }
+  
+
+
+@media screen and (min-width: 1024px) {
+    body {
+      width: 60%;
+      height: 60vh;
+    }
+    
+    .main-content {
+      max-width: 40rem;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    body {
+      width: 80%;
+      height: 80vh;
+    }
+    
+    .main-content {
+      max-width: 30rem;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    body {
+      width: 90%;
+      height: auto;
+    }
+    
+    .main-content {
+      padding: 0 0.5rem 1.5rem;
+    }
+  }
+  
+@media screen and (max-width: 320px) {
+    body {
+      width: 100%;
+      height: auto;
+    }
+    
+    .main-content {
+      max-width: 90%;
+      padding: 0 0.5rem 1rem;
+    }
+  }
+  
