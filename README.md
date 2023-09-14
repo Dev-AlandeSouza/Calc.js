@@ -1,13 +1,26 @@
-# Calc.js
+# Calculadora em JavaScript
 
-<h3> Essa calculadora foi um exercício proposto pelo o Curso que realizo da OneBitCode. </h3> 
+![image](https://github.com/Dev-AlandeSouza/Calc.js/assets/133730523/bac4be7d-db28-4fda-bf99-31c09de80f76)
 
-Nesse projeto criei o HTML de forma estratégica onde os botões ficam posicionados de maneira que não seja preciso realizar alteração no CSS3, facilitando
-também o desenvolvimento, para interação da calculadora, utilizei princípios de manipulação do DOM (Document Object Model).
-Afim de criar um charme também criei um botão para alteração de temas.
-Utilizei de métodos responsivos utilizando Medias Querys, tornando a calculadora em um ótimo formato para todos os dispositivos.
 
-Por fim, utilizei as seguintes tecnologias: Javascript | HTML5 | CSS3 |
+Este é um projeto de calculadora simples desenvolvido em JavaScript, HTML e CSS. Você pode experimentar a calculadora [aqui](https://dev-alandesouza.github.io/Calc.js//).
 
- 
- ![image](https://github.com/Dev-AlandeSouza/Calc.js/assets/133730523/75dc2cf8-2277-409b-b13e-64fcb2969340)
+## Como Usar
+
+1. Abra o [link da calculadora](https://dev-alandesouza.github.io/Calc.js/) no seu navegador.
+
+2. Use os botões numerados e de operação para inserir a expressão que deseja calcular.
+
+3. Clique no botão "=" para ver o resultado da expressão.
+
+4. Para limpar a entrada, clique no botão "C".
+
+5. Você também pode alternar entre temas claro e escuro usando o botão "Theme Dark/Light".
+
+## Recursos
+
+- Interface amigável e responsiva.
+- Realiza operações matemáticas básicas, como adição, subtração, multiplicação e divisão.
+- Opção de alternar entre temas claro e escuro.
+
+Aproveite!!
