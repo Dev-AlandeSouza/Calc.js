@@ -8,20 +8,26 @@
 }
 
 :root {
-    /* Cores para o tema Dark */
-    --dark-fontColor: #fecb00;
-    --dark-bgColor: #1b1f2d;
-    --dark-borderColor: #ffffff;
-    --darkBgPrimary-color: #00fff7;
-
-    /* Color success */
+    /* Cores para o tema Claro */
+    --fontColor: #7a7979;
+    --bgColor: #FFFFFF;
+    --borderColor: #01b3fa;
+    --bgPrimary-color: #007BFF;
     --success-color: #00ff7b;
+    
+    /* Cores para o tema Dark */
+    --fontColor: #FFFFFF;
+    --bgColor: #1b1f2d;
+    --borderColor: #ffffff;
+    --bgPrimary-color: #00fff7;
+    --success-color: #00bd5b;
 }
+
 
 body {
     display: block;
-    background-color: var(--dark-bgColor);
-    color: var(--dark-fontColor);
+    background-color: var(--bgColor);
+    color: var( --fontColor);
     width: 100%;
     height: 100%;
     margin: 0 auto;
@@ -57,22 +63,22 @@ button {
 }
 
 #themeSwitcher {
-    background-color: var(--dark-bgColor);
-    border: 0.125rem solid var(--dark-fontColor);
+    background-color: var(--bgColor);
+    border: 0.125rem solid var(--fontColor);
     color: var(--font-color);
     padding: 0.5em;
 }
 
 #themeSwitcher:hover {
-    background-color: var(--dark-fontColor);
-    color: var(--dark-bgColor);
+    background-color: var(--fontColor);
+    color: var(--bgColor);
 }
 
 #contentValues {
-    background-color: var(--dark-bgColor);
+    background-color: var(--bgColor);
     border: 2px solid;
     border-radius: 0.5rem;
-    color: var(--dark-fontColor);
+    color: var(--fontColor);
     display: block;
     font-size: 1.2rem;
     margin: 0 auto;
@@ -83,13 +89,13 @@ button {
 
 #equalResult {
     padding: 1.2em;
-    background-color: var(--dark-fontColor);
+    background-color: var(--fontColor);
     border-radius: 0.4rem;
 }
 
 #clearInput {
     padding: 1.2em;
-    background-color: var(--dark-fontColor);
+    background-color: var(--fontColor);
     border-radius: 0.4rem;
 }
 
@@ -108,7 +114,7 @@ button {
     font-size: 15px;
     font-size: larger;
     font-weight: 400;
-    color: var(--dark-fontColor);
+    color: var(--fontColor);
     display: block;
     margin: 0 auto;
     padding: 1rem;
@@ -117,8 +123,8 @@ button {
 }
 
 #copyButton {
-    background-color: var(--dark-fontColor);
-    border: solid var(--border-color);
+    background-color: var(--fontColor);
+    border: solid var(--bordercolor);
     border-width: 2px;
     border-radius: 0.5rem 0rem 0rem 0.5rem;
     color: black;
@@ -133,14 +139,14 @@ button {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: var(--dark-bgColor);
+    background-color: var(--bgColor);
     border: white solid 1px;
     border-radius: 0.5rem;
 }
 
 .buttonsCalc {
     padding: 2em;
-    background-color: var(--darkBgPrimary-color);
+    background-color: var(--bgPrimary-color);
     border-radius: 0.4rem;
 }
 
