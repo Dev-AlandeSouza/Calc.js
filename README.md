@@ -1,6 +1,12 @@
 # Calculadora em JavaScript
+<h3>Tema Claro</h3>
 
-![image](https://github.com/Dev-AlandeSouza/Calc.js/assets/133730523/bac4be7d-db28-4fda-bf99-31c09de80f76)
+![image](https://github.com/Dev-AlandeSouza/Calc.js/assets/133730523/faa0f9b3-d0d1-4e62-ab34-e85d6ce0c46e)
+
+<h3>Tema escuro</h3>
+
+![image](https://github.com/Dev-AlandeSouza/Calc.js/assets/133730523/1a674cac-f9b2-409d-a10e-a90058b68937)
+
 
 
 Este é um projeto de calculadora simples desenvolvido em JavaScript, HTML e CSS. Você pode experimentar a calculadora [aqui](https://dev-alandesouza.github.io/Calc.js//).
