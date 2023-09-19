@@ -76,18 +76,16 @@ document.getElementById('copyButton').addEventListener('click', (event) => {
 
 document.getElementById('themeSwitcher').addEventListener('click', () => {
     if (main.dataset.theme === 'darkTheme') {
-        root.style.setProperty('--dark-bgColor', '#CACACA');
-        root.style.setProperty('--dark-fontColor', '#00747C');
-        root.style.setProperty('--dark-borderColor', '#0055ff');
-        root.style.setProperty('--darkBgPrimary-color', '#878787');
+        root.style.setProperty('--bgColor', '#1b1f2d');
+        root.style.setProperty('--fontColor', '#FFFFFF');
+        root.style.setProperty('--borderColor', '#ffffff');
+        root.style.setProperty('--bgPrimary-color', '#00fff7');
         main.dataset.theme = 'lightTheme';
     } else {
-        root.style.setProperty('--dark-bgColor', '#1b1f2d');
-        root.style.setProperty('--dark-fontColor', '#fecb00');
-        root.style.setProperty('--dark-borderColor', '#ffffff');
-        root.style.setProperty('--darkBgPrimary-color', '#00fff7');
+        root.style.setProperty('--bgColor', '#FFFFFF');
+        root.style.setProperty('--fontColor', '#7a7979');
+        root.style.setProperty('--borderColor', '#003300');
+        root.style.setProperty('--bgPrimary-color', '#007BFF');
         main.dataset.theme = 'darkTheme';
     }
 });
-
-
